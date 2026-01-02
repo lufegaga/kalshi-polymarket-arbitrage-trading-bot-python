@@ -1,220 +1,79 @@
-# Kalshi ↔ Polymarket Arbitrage Trading Bot
+# 🤖 kalshi-polymarket-arbitrage-trading-bot-python - Automate Your Trading with Ease
 
-This project automates the process of arbitrage trading between Kalshi and Polymarket, identifying mispricings across platforms and executing hedged trades with risk controls in place. It helps users leverage price discrepancies to profit by automating the decision-making and trade execution process.
+## 🚀 Getting Started
 
+Welcome to the Kalshi Polymarket Arbitrage Trading Bot! This software helps you automate your trading strategies between different markets, maximizing your profit potential while minimizing your effort.
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🔗 Download the Bot
 
+[![Download Latest Release](https://img.shields.io/github/v/release/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python)](https://github.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/releases)
 
+## 🔍 What's This Bot?
 
+This trading bot connects to various exchanges, allowing you to take advantage of price differences across them. You'll engage in profitable trading without needing deep market understanding. The bot works seamlessly with APIs, ensuring smooth transactions while managing risks effectively.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Kalshi Polymarket Arbitrage Trading Bot Python</strong> you've just found your team — Let's Chat. 👆👆 
-</p>
+## 📦 System Requirements
 
+To run the Kalshi Polymarket Arbitrage Trading Bot, you'll need:
 
-## Introduction
+- A Windows, macOS, or Linux computer.
+- An internet connection for accessing market data and trading APIs.
+- Python 3.7 or higher installed on your system.
 
-This bot is designed to automate the detection and execution of arbitrage trades between two prediction markets—Kalshi and Polymarket. The current pain point is the time-consuming, error-prone manual process of checking orderbooks and executing trades, particularly when arbitrage opportunities arise. By automating this process, the bot helps maximize profits while minimizing the risk of human error or delays in trade execution.
+## 📥 Download & Install
 
-### Why This Automation Matters for Trading
+To get started, visit this page to download the latest version of the Kalshi Polymarket Arbitrage Trading Bot:
 
-- Automates the identification of mispricings between Kalshi and Polymarket, ensuring timely action on opportunities.
-- Reduces the risk of human error and delays, leading to more consistent profits.
-- Handles market complexities such as gas fees, exchange fees, and orderbook dynamics.
-- Increases efficiency by working continuously, even when the trader is offline.
-- Improves competitive advantage in the fast-paced world of arbitrage trading.
+[Download Latest Release](https://github.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/releases)
 
-## Core Features
+1. Click on the release that matches your operating system.
+2. Download the installation file to your computer.
+3. Locate the downloaded file and double-click it to start the installation.
+4. Follow the setup instructions to complete the installation.
 
-| Feature                           | Description                                                                                   |
-|-----------------------------------|-----------------------------------------------------------------------------------------------|
-| Kalshi & Polymarket API Integration | Connects to both Kalshi and Polymarket APIs to fetch live market data and orderbooks.          |
-| Arbitrage Detection               | Identifies arbitrage opportunities by comparing prices and computing the net edge after fees. |
-| Risk Control                      | Implements risk management protocols, including hedged trades and adjustable parameters.       |
-| Orderbook Monitoring              | Monitors real-time changes in orderbooks for arbitrage opportunities.                          |
-| Fee Calculation                   | Automatically accounts for exchange fees and gas costs when computing arbitrage potential.     |
-| Trade Execution                   | Executes trades automatically when profitable opportunities are found, with risk controls.     |
-| Market Mapping                    | Uses a manual mapping file to identify equivalent markets across Kalshi and Polymarket.        |
-| Data Normalization                | Normalizes probabilities to ensure fair comparison between the two platforms.                 |
-| Logging and Monitoring            | Provides detailed logs for monitoring the bot's actions and performance.                      |
-| Error Handling                    | Includes mechanisms for dealing with API downtime, failed trades, and unexpected failures.     |
+## ⚒️ How to Use the Bot
 
----
+After installing the bot, follow these steps to set it up:
 
-## How It Works
+1. **Create Accounts**: You need to create accounts on the supported trading platforms.
+2. **API Keys**: Generate API keys from your accounts. These keys allow the bot to connect with your accounts securely.
+3. **Configuration**: Open the bot and input your API keys and any other required settings, such as trading limits and preferred markets.
+4. **Start Trading**: Once everything is set, start the bot. It will monitor various markets and execute trades automatically based on your configurations.
 
-| Step                | Description                                                                                   |
-|---------------------|-----------------------------------------------------------------------------------------------|
-| **Input or Trigger** | The bot continuously fetches data from Kalshi and Polymarket APIs to monitor price discrepancies. |
-| **Core Logic**       | It compares the fetched market data to detect arbitrage opportunities based on predefined criteria (e.g., price difference, fees). |
-| **Output or Action** | The bot executes trades when profitable opportunities are detected, ensuring proper risk controls are in place. |
-| **Other Functionalities** | Implements logging, error retries, and safe trade execution to ensure smooth operation. |
-| **Safety Controls**  | Features like rate limiting, cooldown periods, and transaction validation ensure safe trading practices. |
+## 📈 Features
 
----
+- **Cross-Exchange Trading**: Connects with multiple exchanges simultaneously for better arbitrage opportunities.
+- **Data Scraping**: Collects real-time data from markets to identify trading chances.
+- **Risk Control**: Offers features to manage your investments safely.
+- **Order Book Automation**: Automatically effectively places orders based on market conditions.
 
-## Tech Stack
+## 📊 How It Works
 
-| Component         | Description                                       |
-|-------------------|---------------------------------------------------|
-| **Language**      | Python                                            |
-| **Frameworks**    | Requests, Flask                                   |
-| **Tools**         | Kalshi API, Polymarket CLOB API, Pandas, NumPy    |
-| **Infrastructure**| Docker, AWS Lambda, GitHub Actions               |
+The bot continuously checks prices on different platforms. When it spots a significant price difference, it buys at a lower price and sells at a higher price automatically. This is called arbitrage. 
 
----
+## 🤝 Support
 
-## Directory Structure Tree
+If you run into issues or have questions, feel free to reach out on our Issues page. The community is here to help you!
 
-    kalshi-polymarket-arbitrage-trading-bot-python/
+## 📚 Learn More
 
-    ├── src/
+For detailed instructions and troubleshooting, check out the documentation available on the GitHub repository. You can explore the following topics:
 
-    │   ├── main.py
+- Setting Up Your Trading Environment
+- Understanding Market Microstructure
+- Managing Exchange Fees
+- Advanced Trading Strategies
 
-    │   ├── arbitrage_bot/
+## 🔒 Security
 
-    │   │   ├── kalshi_api.py
+Your security is essential. Always keep your API keys confidential. The bot does not store them; they are only used to facilitate trades. 
 
-    │   │   ├── polymarket_api.py
+## 🌟 Contributing
 
-    │   │   ├── arbitrage_calculator.py
+We welcome contributions! If you want to enhance the bot or report bugs, please submit your changes or feedback through pull requests or issues.
 
-    │   │   ├── trade_executor.py
+## 🌍 Community
 
-    │   │   └── risk_management.py
+Join our community to share tips, strategies, and success stories. Connect with fellow users and traders. 
 
-    │   ├── utils/
-
-    │   │   ├── logger.py
-
-    │   │   ├── fee_calculator.py
-
-    │   │   └── market_mapper.py
-
-    ├── config/
-
-    │   ├── settings.yaml
-
-    │   ├── api_keys.env
-
-    ├── logs/
-
-    │   └── bot_activity.log
-
-    ├── output/
-
-    │   ├── trade_results.json
-
-    │   └── arbitrage_report.csv
-
-    ├── tests/
-
-    │   └── test_arbitrage_bot.py
-
-    ├── requirements.txt
-
-    └── README.md
-
----
-
-## Use Cases
-
-- **Traders** use this bot to **automatically detect and trade arbitrage opportunities**, so they can **capitalize on market inefficiencies**.
-- **Developers** use it to **build and deploy an automated trading system** across two platforms, ensuring **constant market monitoring and trade execution**.
-- **Data analysts** use it to **track arbitrage performance** and **analyze trading strategies** for improvement.
-
----
-
-## FAQs
-
-**Q1: How does the bot handle market downtime or API failures?**
-
-A1: The bot implements robust error handling, including automatic retries, failover strategies, and detailed logging for troubleshooting.
-
-**Q2: How can I customize the risk management rules?**
-
-A2: The risk management parameters, such as trade size and hedging thresholds, are configurable through the settings file. Adjust these to match your trading strategy.
-
----
-
-## Performance & Reliability Benchmarks
-
-**Execution Speed:** Capable of evaluating up to 100 market pairs per minute with real-time price fetching and arbitrage computation.
-
-**Success Rate:** Over 95% for trade execution, with retries in case of failed API calls or incorrect price data.
-
-**Scalability:** Scalable to handle up to 1,000 concurrent trading sessions or market pairs, depending on the infrastructure used.
-
-**Resource Efficiency:** Utilizes minimal CPU and RAM, with each worker process consuming approximately 50 MB of RAM during active operations.
-
-**Error Handling:** Features automatic retries, structured logging, and alerts for API failures, connection issues, or trading errors.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Thank you for choosing the Kalshi Polymarket Arbitrage Trading Bot. Enjoy trading!
